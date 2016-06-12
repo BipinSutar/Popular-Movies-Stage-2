@@ -1,0 +1,21 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content">
+<RelativeLayout 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:id="@+id/posters_grid"
+        android:theme="@style/AppTheme"
+        android:transitionGroup="true" />
+        <!-- android:verticalSpacing="@dimen/vertical_poster_spacing" -->
+        <!-- android:horizontalSpacing="@dimen/horizontal_poster_spacing" --> />
+</RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
